@@ -1,0 +1,161 @@
+<taller>
+    <pregunta id='1'>
+        <enunciado>
+            Imagina que estás gestionando una cola de solicitudes de soporte técnico. Cada solicitud
+            contiene un `id_solicitud` (un número) y una `prioridad` (una cadena de texto que puede
+            ser 'poco', 'normal', 'importante', 'urgente', 'vital').
+
+            Debes reimplementar los métodos necesarios de las clases NodoPrioridad y ColaPrioridad
+            vistas en clase para que gestione estas solicitudes donde la prioridad está dada por una
+            cadena de texto. Los elementos deben quedar ordenados de tal forma que todas las
+            solicitudes sean desencoladas en el orden de la prioridad.
+
+            Para las pruebas, pruebe diferentes casos como desencolar cuando se han desencolado
+            todos los elementos, encolar con prioridades en diferentes ordenes y asegurese que para
+            todos los posibles casos su algoritmo funciona correctamente
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='2'>
+        <enunciado>
+            Estás creando un editor de texto simple que valida la sintaxis de un lenguaje de
+            scripting básico. En este lenguaje, las secuencias de código se abren con una etiqueta
+            de dos caracteres y se cierran con la misma etiqueta pero invertida. Por ejemplo, una
+            secuencia `ab` se cierra con `ba`.
+
+            Escribe una función llamada `validador(texto)` que utilice una Pila para determinar si
+            una cadena de texto,
+            compuesta únicamente por estos caracteres, está bien formada. Una secuencia está bien
+            formada si cada etiqueta de apertura se corresponde con su etiqueta de cierre correcta y
+            en el orden adecuado.
+
+            Considera que las etiquetas pueden anidarse.
+
+            Ejemplos:
+            - `"axbyybxa"` -> Válido. (`ax` se abre, luego `by` se abre, `by` se cierra con `yb`,
+            `ax` se cierra con `xa`).
+            - `"azzz"` -> Válido. (`az` se abre y se cierra con `za`). El `z` del medio es
+            contenido.
+            - `"abccba"` -> Inválido. (`ab` se abre, pero se encuentra con `cc` que no es un cierre
+            válido para `ab`).
+            - `"azyb"` -> Inválido. (`az` se abre, pero `yb` no es su cierre correspondiente).
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='3'>
+        <enunciado>
+
+            Se te ha dado un texto largo como una cadena de texto y una lista de "palabras vacías"
+            (stop words) que no deben ser contadas (por ejemplo: "el", "la", "de", "y").
+
+            Debes implementar una función llamada `conteo_freq(texto,palabras_vacias)` que reciba el
+            texto y la lista de palabras vacías. La función debe usar un HashMap (Diccionario) para
+            contar la frecuencia de cada palabra en
+            el texto, ignorando las mayúsculas/minúsculas y las palabras vacías.
+
+            Finalmente, la función no debe devolver el HashMap completo, sino una lista de las 3
+            palabras más frecuentes junto con su frecuencia, ordenadas de mayor a menor frecuencia.
+            Ejemplo:
+            - **Texto:** "El rápido zorro marrón salta sobre el perro perezoso. El zorro es muy
+            rápido."
+            - **Palabras Vacías:** ["el", "sobre", "es", "muy"]
+            - **Salida Esperada:** `[('rápido', 2), ('zorro', 2), ('marrón', 1)]` (o cualquier otra
+            palabra con frecuencia 1 en el último lugar).
+
+            Recuerde que debe usar las estructuras implementadas por usted mismo y no las que forman
+            parte
+            de la biblioteca estándar en el lenguaje de su preferencia.
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+
+    <pregunta id='4'>
+        <enunciado>
+            Estás implementando una funcionalidad de "procesamiento por lotes" para un editor. El
+            usuario introduce una secuencia de caracteres en una Cola. Sin embargo, en esta
+            secuencia, el carácter '#' actúa como una tecla de "retroceso" (eliminar, ←), eliminando
+            el último carácter válido introducido. El carácter '$' indica que todo el lote actual
+            debe ser procesado (transferido a una cola final).
+
+            Implementa una función llamada `procesar_lotes(colaSimple)` que reciba una cola de
+            caracteres con este formato. Debes usar una Pila para manejar los caracteres y la lógica
+            de retroceso. Cuando se encuentra un '$', todos los caracteres acumulados en la Pila (el
+            lote procesado) deben ser transferidos a una cola de resultado, manteniendo su orden
+            original.
+
+            Ejemplo:
+            - **Cola de Entrada:** `['a', 'b', '#', 'c', '$', 'd', 'e', 'f', '#', '$']`
+            - **Proceso:**
+            1. Lote 1: `a`, `b`, `#` (elimina b), `c`. El lote es `['a', 'c']`. Se encuentra `$`.
+            2. Lote 2: `d`, `e`, `f`, `#` (elimina f). El lote es `['d', 'e']`. Se encuentra `$`.
+            - **Cola de Salida:** `['a', 'c', 'd', 'e']`
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+
+    <pregunta id='5'>
+        <enunciado>
+
+            Dos cadenas de texto, `s1` y `s2`, se consideran isomorfas si los caracteres en `s1`
+            pueden ser reemplazados para obtener `s2`, respetando un mapeo uno a uno.
+
+            Esto significa que cada carácter en `s1` debe mapear a un único carácter en `s2`, y
+            ningún par de caracteres diferentes en `s1` puede mapear al mismo carácter en `s2`. El
+            orden de los caracteres debe ser preservado.
+
+            Escribe una función llamada `es_isomorfo(s1,s2)` que reciba dos cadenas de caracteres u
+            utilice uno o dos HashMaps (Diccionarios) para determinar si dos cadenas de
+            texto dadas son isomorfas.
+
+            Ejemplos:
+            - `s1 = "toro"`, `s2 = "vete"` -> Válido (t -> v, o -> e, r -> t).
+            - `s1 = "foo"`, `s2 = "bar"` -> Inválido (o -> a, pero luego o -> r, rompe el mapeo uno
+            a uno).
+            - `s1 = "teclados"`, `s2 = "camiones"` -> Válido (t -> c, e -> a, c -> m, l -> i, a ->
+            o, d -> n, o -> e, s -> s).
+            - `s1 = "badc"`, `s2 = "baba"` -> Inválido ('d' y 'b' de s1 no pueden mapear al mismo
+            carácter 'b' en s2).
+</enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+</taller>

@@ -2,18 +2,18 @@
 
 ## Instrucciones Generales
 
-Enlace a los enunciados: [`lab1.xml`](https://github.com/IUSH-DS-202502/recursos-clase/blob/main/Laboratorios/lab1/lab1.xml)
+Enlace a los enunciados: [`lab2.xml`](https://github.com/IUSH-DS-202502/recursos-clase/blob/main/Laboratorios/lab2/lab2.xml)
 
 1. **Desarrollo del Algoritmo**:
    - Cada laboratorio está compuesto por varios puntos.
    - En cada punto, deberás desarrollar un algoritmo en el lenguaje de programación de tu preferencia.
    - Asegúrate de que tu solución cumpla con lo especificado en el enunciado, no más, no menos.
    - Lea atentamente cada una de las instrucciones, la calificación es automatizada con mínima intervención manual.
-   - Para el desarrollo de este laboratorio NO SE PODRÁ HACER USO DE NINGUNA ESTRUCTURA TIPO LISTA o ARREGLO con excepción de aquellas que sean implementadas por usted como parte del laboratorio y que **sea coherente y correspondiente con lo visto en clase**.
-     - En síntesis, lo que se espera es que usted haga uso de la clase lista simplemente enlazada y lista doblemente enlazada que USTED implemente con base en lo visto en el curso.
+   - Para el desarrollo de este laboratorio NO SE PODRÁ HACER USO DE NINGUNA ESTRUCTURA TIPO COLA, PILA o LISTA, ARREGLO o DICCIONARIO (ni variantes) con excepción de aquellas que sean implementadas por usted como parte del laboratorio y que **sea coherente y correspondiente con lo visto en clase**.
+     - En síntesis, lo que se espera es que usted haga uso de la clases Pila, Cola, ColaPrioridad y HashMap que USTED implemente con base en lo visto en el curso.
 
 2. **Archivos del Laboratorio**:
-   - Para este laboratorio solo está disponible el archivo [`lab1.xml`](https://github.com/IUSH-DS-202502/recursos-clase/blob/main/Laboratorios/lab1/lab1.xml).
+   - Para este laboratorio solo está disponible el archivo [`lab2.xml`](https://github.com/IUSH-DS-202502/recursos-clase/blob/main/Laboratorios/lab2/lab2.xml).
    - El archivo contiene los puntos a desarrollar.
 
 3. **Formato de la Solución**:
@@ -29,7 +29,7 @@ Enlace a los enunciados: [`lab1.xml`](https://github.com/IUSH-DS-202502/recursos
      - `<complejidad></complejidad>`
        - Aquí debe poner el orden de magnitud de su solución.
    - Cada punto será evaluado como una solución independiente y aislado de las demás consignadas en el documento, es por esto que la solución a cada punto debe ser completa e independiente de las demás, si se importan bibliotecas externas, estos imports deben formar parte de cada punto que son usados.
-     - Para cada punto deberá incluir el código usado para la creación de las clases de los nodos, las Listas Simplemente Enlazadas o Listas Doblemente Enlazadas según corresponda.
+     - Para cada punto deberá incluir el código usado para la creación de las clases de los nodos, las Pilas, Colas o HashMap según corresponda.
    - Si usas Python, por favor valida la correcta identación del código antes de entregarlo, de lo contrario se calificará como incorrecto.
    - No modifiques ni elimines ninguna otra parte del archivo.
    - El no seguir las instrucciones anteriores causará la pérdida del entregable de manera irremediable.
@@ -39,7 +39,7 @@ Enlace a los enunciados: [`lab1.xml`](https://github.com/IUSH-DS-202502/recursos
 
 1. **Formato y Nombre del Archivo**:
    - El archivo debe ser enviado en el mismo formato entregado.
-   - Es crucial que **conserves el nombre original** del archivo (`lab1.xml` ).
+   - Es crucial que **conserves el nombre original** del archivo (`lab2.xml` ).
    - El no seguir estas instrucciones implicará que la entrega es inválida.
 
 2. **Método de Envío**:
