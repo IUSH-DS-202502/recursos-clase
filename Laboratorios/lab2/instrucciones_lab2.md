@@ -49,7 +49,7 @@ Enlace a los enunciados: [`lab2.xml`](https://github.com/IUSH-DS-202502/recursos
    - Asegúrate de que el archivo enviado esté correctamente y que contenga tu solución dentro del espacio indicado.
 
 4. **Fecha máxima de envío:**:
-   - 16 de Septiembre del 2025 a las 23:59:59 PM
+   - 23 de Septiembre del 2025 a las 23:59:59 PM
 
 ## Evaluación
 
