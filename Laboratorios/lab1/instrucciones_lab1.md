@@ -40,7 +40,7 @@ Enlace a los enunciados: [`lab1.xml`](https://github.com/IUSH-DS-202502/recursos
    - El no seguir estas instrucciones implicará que la entrega es inválida.
 
 2. **Método de Envío**:
-   - Debes enviar el archivo a nuestro chat directo en Teams.
+   - Debe abrir el chat con el docente en Teams (Christian Delany) y enviar el documento al chat donde estemos únicamente los dos. Favor no enviarlo a ningun chat grupal ni por email.
 
 3. **Verificación del Documento**:
    - Asegúrate de que el archivo enviado esté correctamente y que contenga tu solución dentro del espacio indicado.
