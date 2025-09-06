@@ -1,4 +1,4 @@
-<taller id='-1'>
+<taller id='0'>
     <pregunta id='1'>
         <enunciado>
             Crea una función llamada cuadrado_suma(a,b) que sume dos numeros 'a' y 'b' y retorne su valor al cuadrado

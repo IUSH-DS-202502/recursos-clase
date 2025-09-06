@@ -2,6 +2,8 @@
 
 ## Instrucciones Generales
 
+Enlace a los enunciados: [`lab1.xml`](https://github.com/IUSH-DS-202502/recursos-clase/blob/main/Laboratorios/lab1/lab1.xml)
+
 1. **Desarrollo del Algoritmo**:
    - Cada laboratorio está compuesto por varios puntos.
    - En cada punto, deberás desarrollar un algoritmo en el lenguaje de programación de tu preferencia.
@@ -9,7 +11,7 @@
    - Lea atentamente cada una de las instrucciones, la calificación es automatizada con mínima intervención manual.
 
 2. **Archivos del Laboratorio**:
-   - Para este laboratorio solo está disponible el archivo `lab1.xml`.
+   - Para este laboratorio solo está disponible el archivo [`lab1.xml`](https://github.com/IUSH-DS-202502/recursos-clase/blob/main/Laboratorios/lab1/lab1.xml).
    - El archivo contiene los puntos a desarrollar.
 
 3. **Formato de la Solución**:
@@ -28,6 +30,7 @@
    - Si usas Python, por favor valida la correcta identación del código antes de entregarlo, de lo contrario se calificará como incorrecto.
    - No modifiques ni elimines ninguna otra parte del archivo.
    - El no seguir las instrucciones anteriores causará la pérdida del entregable de manera irremediable.
+   - Si requiere de un ejemplo sobre como se incluye la solución de los laboratorios en la plantilla entregada, por favor refierase al siguiente archivo: [`lab_ejemplo.xml`](https://github.com/IUSH-DS-202502/recursos-clase/blob/main/Laboratorios/lab_ejemplo.xml)
 
 ## Envío del Archivo
 
