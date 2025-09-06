@@ -1,0 +1,102 @@
+<taller>
+    <pregunta id='1'>
+        <enunciado>
+            Para una lista simplemente enlazada de números enteros, implementa una función que
+            reubique el nodo con el valor máximo para que sea el último elemento de la lista. Si hay
+            múltiples nodos con el valor máximo, mueve el primero que encuentres. La función debe
+            operar 'in-place', es decir, sin crear una nueva lista, solo modificando los punteros de
+            la existente. Asume que la lista tiene al menos dos nodos.
+
+            Por ejemplo, si la lista es `10 -> 25 -> 5 -> 15`, después de la operación debería ser
+            `10
+            -> 5 -> 15 -> 25`.
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='2'>
+        <enunciado>
+            Dada una lista simplemente enlazada, implementa una función que elimine todos los nodos
+            que están 'dominados' por su vecino de la derecha. Un nodo 'A' está dominado por su
+            vecino 'B' si el valor de 'A' es menor que el valor de 'B'. La operación debe realizarse
+            en una sola pasada a través de la lista.
+
+            Por ejemplo, si la lista es `3 -> 8 -> 2 -> 9 -> 5 -> 4`, el resultado debería ser `8 ->
+            9 -> 5 -> 4`. (El 3 es eliminado porque 8 > 3; el 2 es eliminado porque 9 > 2). La
+            cabeza
+            de la lista podría cambiar.
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='3'>
+        <enunciado> En una *lista DOBLEMENTE enlazada*, implementa una función que intercambie el
+            k-ésimo nodo desde el inicio con el k-ésimo nodo desde el final. El parámetro 'k' será
+            un entero basado en 0. Debes manipular únicamente las ligas de los nodos involucrados y
+            sus vecinos, sin cambiar los valores de los nodos. Asume que 'k' es un índice válido y
+            no apunta a la misma mitad de la lista (es decir, el problema tiene una solución no
+            trivial). Por ejemplo, si la lista es `A <-> B <-> C <-> D <-> E` y k=1, el nodo en el índice 1
+            ('B') debe intercambiarse con el nodo en el índice 3 ('D'). El resultado sería `A <-> D <->
+            C <-> B <-> E`. </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='4'>
+        <enunciado>
+            Escribe una función que determine si una lista DOBLEMENTE enlazada de caracteres es un
+            palíndromo. Para ser eficiente, tu solución debe evitar el uso de estructuras de datos
+            adicionales (como arreglos o pilas). Aprovecha los punteros 'ligaIzq' y 'ligaDer' para
+            comparar la lista desde ambos extremos simultáneamente, moviéndote hacia el centro.
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='5'>
+        <enunciado> Implementa una función que reciba una lista simplemente enlazada y devuelva una
+            **nueva** lista DOBLEMENTE enlazada que contenga únicamente los valores que son
+            promedios de sus vecinos inmediatos en la lista original. Un nodo con valor 'v' en la
+            posición 'i' es un promedio si `(valor(i-1) + valor(i+1)) / 2 == v`. Los nodos de los
+            extremos (cabeza y cola) de la lista original no pueden cumplir esta condición, por lo
+            que no se consideran. Por ejemplo, si la lista de entrada es `1 -> 3 -> 5 -> 4 -> 3 ->
+            9`, los promedios son: - El nodo con valor 3: `(1 + 5) / 2 = 3`. - El nodo con valor 4:
+            `(5 + 3) / 2 = 4`. La función debería devolver una nueva lista doblemente enlazada: `3 <->
+            4`. </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+</taller>

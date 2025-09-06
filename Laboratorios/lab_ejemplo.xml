@@ -1,0 +1,130 @@
+<taller id='-1'>
+    <pregunta id='1'>
+        <enunciado>
+            Crea una función llamada cuadrado_suma(a,b) que sume dos numeros 'a' y 'b' y retorne su valor al cuadrado
+        </enunciado>
+        <codigo lenguaje="Python">
+import math
+def cuadrado_suma(a,b):
+    suma = a + b
+    cuadrado = math.pow(suma)
+    return cuadrado
+
+        </codigo>
+        <pruebas>
+print("1 + 2 al cuadrado es")
+print(cuadrado_suma(1,2))
+
+print("9898987 + 4545363 al cuadrado es")
+print(cuadrado_suma(9898987,4545363))
+        </pruebas>
+        <complejidad>
+            O(1)
+        </complejidad>
+    </pregunta>
+    <pregunta id='2'>
+        <enunciado>
+            Cree una funcion llamada suma_lista(l) que reciba un arreglo 'l', sume sus elementos
+            y retorne la suma
+        </enunciado>
+        <codigo lenguaje="Python">
+def suma_lista(l):
+    total = 0
+    for elemento en l:
+        total = total + elemento
+    return suma_lista
+        </codigo>
+        <pruebas>
+lista1 = [1,2,3,4,5]
+
+print(f"Suma de los elementos {lista1} es: ")
+resultado1 = suma_lista(lista1)
+print(resultado1)
+
+lista2 = [-1,-2,-100,324535,-4523]
+
+print(f"Suma de los elementos {lista2} es: ")
+resultado2 = suma_lista(lista2)
+print(resultado2)
+        </pruebas>
+        <complejidad>
+            O(n)
+        </complejidad>
+    </pregunta>
+    <pregunta id='3'>
+        <enunciado>
+            Cree una funcion llamada invertir, que invierta los elementos de un arreglo
+        </enunciado>
+        <codigo lenguaje="C#">
+using System;
+
+class Program
+{
+    static T[] Invertir<T>(T[] arreglo)
+    {
+        for (int i = 0; i < arreglo.Length / 2; i++)
+        {
+            T temp = arreglo[i];
+            arreglo[i] = arreglo[arreglo.Length - 1 - i];
+            arreglo[arreglo.Length - 1 - i] = temp;
+        }
+        return arreglo;
+    }
+}
+        </codigo>
+        <pruebas>
+int[] numeros = { 1, 2, 3, 4, 5 };
+string[] palabras = { "hola", "mundo" };
+
+int[] numerosInvertidos = Invertir(numeros);
+string[] palabrasInvertidas = Invertir(palabras);
+
+Console.WriteLine(string.Join(", ", numerosInvertidos));
+Console.WriteLine(string.Join(", ", palabrasInvertidas));
+        </pruebas>
+        <complejidad>
+            O(n)
+        </complejidad>
+    </pregunta>
+    <pregunta id='4'>
+        <enunciado>
+            Cree una funcion llamada factorial que calcule el factorial de un número dado.
+        </enunciado>
+        <codigo lenguaje="C++">
+#include <iostream>
+
+long long factorial(int n) {
+    if (n < 0) {
+        // El factorial no está definido para números negativos.
+        // Podríamos lanzar una excepción o devolver 0.
+        // En este caso, devolveremos 0 como convención.
+        return 0;
+    }
+
+    if (n == 0 || n == 1) {
+        return 1;
+    }
+
+    long long resultado = 1;
+    for (int i = 2; i <= n; ++i) {
+        resultado *= i;
+    }
+    return resultado;
+}
+        </codigo>
+        <pruebas>
+int main() {
+    int numero = 5;
+    std::cout << "El factorial de " << numero << " es " << factorial(numero) << std::endl; // Salida: El factorial de 5 es 120
+    
+    int otro_numero = 10;
+    std::cout << "El factorial de " << otro_numero << " es " << factorial(otro_numero) << std::endl; // Salida: El factorial de 10 es 3628800
+    
+    return 0;
+}
+        </pruebas>
+        <complejidad>
+            O(n)
+        </complejidad>
+    </pregunta>
+</taller>
