@@ -1,0 +1,119 @@
+<taller>
+    <pregunta id='1'>
+        <enunciado> 
+        Escribe una función recursiva llamada `suma_profunda(lista, profundidad=1)` que calcule la "suma ponderada por profundidad" de una lista anidada de enteros. Cada entero en la lista debe ser multiplicado por su nivel de anidamiento.
+
+        Asume que la entrada es una lista que puede contener enteros u otras listas (que a su vez pueden contener enteros y más listas). No debes utilizar ciclos (for/while), toda la lógica de recorrido debe ser recursiva.
+
+        **Ejemplo:**
+        - Para `[1, [2, 2], [[3]], 4]`, el cálculo sería:
+          - `1 * 1` (nivel 1)
+          - `2 * 2` (nivel 2)
+          - `2 * 2` (nivel 2)
+          - `3 * 3` (nivel 3)
+          - `4 * 1` (nivel 1)
+        - El resultado total es `1 + 4 + 4 + 9 + 4 = 22`.
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='2'>
+        <enunciado>
+        Utilizando una implementación propia segun lo visto en clase de un **Árbol Binario** (no necesariamente de búsqueda), escribe una función `encontrar_ruta(raiz, valor)`. Esta función debe encontrar un nodo con el `valor` dado y devolver una cadena de texto que represente el camino desde la raíz hasta ese nodo. El camino se debe representar con 'L' para ir a la izquierda y 'R' para ir a la derecha.
+
+        Si el valor se encuentra en la raíz, debe devolver una cadena vacía. Si hay múltiples nodos con el mismo valor, devuelve la ruta al primero que encuentres (usando un recorrido pre-orden). Si el valor no se encuentra en el árbol, la función debe devolver `null` o `None`.
+
+        **Ejemplo:**
+        Si la ruta para llegar al nodo con valor `10` es `Raíz -> Derecha -> Izquierda`, la función debería devolver la cadena `"RL"`.
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='3'>
+        <enunciado>
+        Partiendo de una implementación propia segun lo visto en clase de un **Árbol AVL**, implementa una función `es_consecutivo(raiz)` que determine si todos los valores almacenados en el árbol forman una secuencia consecutiva de números enteros. Por ejemplo, un árbol que contiene los números `{5, 6, 7, 8}` es consecutivo, pero uno que contiene `{5, 6, 8}` no lo es.
+
+        Tu solución debe ser eficiente y aprovechar las propiedades de un árbol de búsqueda binario para evitar recorrer el árbol más de una vez. No está permitido extraer todos los elementos a una lista y luego verificarla.
+
+        La función debe devolver `True` si los valores son consecutivos y `False` en caso contrario. Un árbol vacío o con un solo nodo se considera consecutivo.
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='4'>
+        <enunciado>
+        Dada tu propia implementación de un **Min-Heap** (montículo de mínimos) representado como un arreglo o lista, implementa una función `eliminar_mayores_que(valor_limite)`. Esta función debe eliminar del montículo todos los elementos cuyo valor sea estrictamente mayor que `valor_limite`.
+
+        La operación debe mantener la estructura del montículo válida al finalizar. Una estrategia eficiente es reconstruir el montículo solo con los elementos que cumplen la condición (aquellos menores o iguales a `valor_limite`), en lugar de eliminar uno por uno.
+
+        **Ejemplo:**
+        - Min-Heap original: `[2, 5, 8, 12, 7, 10, 9]`
+        - Llamada: `eliminar_mayores_que(8)`
+        - Resultado (un posible Min-Heap válido): `[2, 5, 8, 7]`
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+    <pregunta id='5'>
+        <enunciado>
+        Realiza una implementación de un **Árbol Binario**, escribe una función `invertir_parcial(raiz, nivel)`. Esta función debe "invertir" el árbol (intercambiar los hijos izquierdo y derecho de cada nodo) pero únicamente para los nodos que se encuentren a partir del `nivel` especificado. Los nodos en niveles anteriores al `nivel` dado deben permanecer intactos.
+
+        El nivel de la raíz es 0. Si `nivel` es 0, se invierte el árbol completo.
+
+        **Ejemplo:**
+        - Si `nivel = 2` y el árbol es:
+        ```
+              1 (nivel 0)
+             / \
+            2   3 (nivel 1)
+           / \ / \
+          4  5 6  7 (nivel 2)
+        ```
+        - El árbol resultante debería ser:
+        ```
+              1 (nivel 0)
+             / \
+            2   3 (nivel 1)
+           / \ / \
+          5  4 7  6 (nivel 2, hijos intercambiados)
+        ```
+        </enunciado>
+        <codigo lenguaje="">
+            <!-- Inserta la solución al enunciado aquí-->
+        </codigo>
+        <pruebas>
+            <!-- Inserta las pruebas al código implementado aquí-->
+        </pruebas>
+        <complejidad>
+            <!-- Inserta la complejidad (orden de magnitud de la solución) aquí-->
+        </complejidad>
+    </pregunta>
+</taller>
