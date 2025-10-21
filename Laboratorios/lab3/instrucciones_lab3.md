@@ -9,7 +9,7 @@ Enlace a los enunciados: [`lab3.xml`](https://github.com/IUSH-DS-202502/recursos
    - En cada punto, deberás desarrollar un algoritmo en el lenguaje de programación de tu preferencia.
    - Asegúrate de que tu solución cumpla con lo especificado en el enunciado, no más, no menos.
    - Lea atentamente cada una de las instrucciones, la calificación es automatizada con mínima intervención manual.
-   - Para el desarrollo de este laboratorio NO SE PODRÁ HACER USO DE NINGUNA ESTRUCTURA TIPO COLA, PILA o LISTA, ARREGLO o DICCIONARIO (ni variantes) con excepción de aquellas que sean implementadas por usted como parte del laboratorio y que **sea coherente y correspondiente con lo visto en clase**.
+   - Para el desarrollo de este laboratorio NO SE PODRÁ HACER USO DE NINGUNA ESTRUCTURA TIPO ÁRBOL (ni variantes) con excepción de aquellas que sean implementadas por usted como parte del laboratorio y que **sea coherente y correspondiente con lo visto en clase**.
      - En síntesis, lo que se espera es que usted haga uso de la clases Árbol, ÁrbolAVL, MinHeap,MaxHeap que USTED implemente con base en lo visto en el curso.
 
 2. **Archivos del Laboratorio**:
